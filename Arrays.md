@@ -15,7 +15,7 @@ Output
 Solution
 
 ```cpp
-	vector<int> Solution::spiralOrder(const vector<vector<int> > &A) {
+vector<int> Solution::spiralOrder(const vector<vector<int> > &A) {
     int m = A.size(), n = A[0].size();
     int T = 0, B = m - 1, L = 0, R = n - 1; // top, bottom ...
     int dir = 0;
